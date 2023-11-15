@@ -1,0 +1,119 @@
+{
+    "perguntas": [
+      {
+        "id": 1,
+        "pergunta": "Qual é a capital do Brasil?",
+        "alternativas": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+        "resposta": "Brasília"
+      },
+      {
+        "id": 2,
+        "pergunta": "Qual é o maior planeta do sistema solar?",
+        "alternativas": ["Terra", "Júpiter", "Saturno", "Marte"],
+        "resposta": "Júpiter"
+      },
+      {
+        "id": 3,
+        "pergunta": "Qual é o período de translação da Terra ao redor do Sol?",
+        "alternativas": ["365 dias", "24 horas", "30 dias", "1 mês lunar"],
+        "resposta": "365 dias"
+      },
+      {
+        "id": 4,
+        "pergunta": "Quem pintou a Mona Lisa?",
+        "alternativas": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+        "resposta": "Leonardo da Vinci"
+      },
+      {
+        "id": 5,
+        "pergunta":"Qual é a capital da França?",
+        "alternativas":["Berlim", "Paris", "Londres", "Roma"],
+        "resposta": "Paris"
+      },
+      {
+        "id": 6,
+        "pergunta":"Quem escreveu Dom Quixote ?",
+        "alternativas":["Miguel de Cervantes", "William Shakespeare", "Dante Alighieri", "Geoffrey Chaucer"],
+        "resposta": "Miguel de Cervantes"
+      },
+      {
+        "id": 7,
+        "pergunta":"Qual é o país mais populoso do mundo?",
+        "alternativas":["Rússia", "Índia", "China", "Estados Unidos"],
+        "resposta": "Índia"
+      },
+      {
+        "id": 8,
+        "pergunta":"Qual é o maior oceano do mundo?",
+        "alternativas":["Oceano Índico", "Oceano Pacífico", "Oceano Atlântico", "Oceano Ártico"],
+        "resposta": "Oceano Pacífico"
+      },
+      {
+        "id": 9,
+        "pergunta":"Quem foi o primeiro homem a pisar na lua?",
+        "alternativas":["Neil Armstrong", "Buzz Aldrin", "Alan Shepard", "John Glenn"],
+        "resposta": "Neil Armstrong"
+      },
+      {
+        "id": 10,
+        "pergunta":"Qual é a fórmula química da água?",
+        "alternativas":["CO2", "H2O", "NaCl", "H2SO4"],
+        "resposta": "H2O"
+      },
+      {
+        "id": 11,
+        "pergunta":"Qual é a capital da Itália?",
+        "alternativas":["Milão", "Florença", "Veneza", "Roma"],
+        "resposta": "Roma"
+      },
+      {
+        "id": 12,
+        "pergunta":"Quem escreveu A Odisséia ?",
+        "alternativas":["Homero", "Sófocles", "Platão", "Aristóteles"],
+        "resposta": "Homero"
+      },
+      {
+        "id": 13,
+        "pergunta":"Qual é o símbolo químico do ouro?",
+        "alternativas":["Au", "Ag", "Pt", "Fe"],
+        "resposta": "Au"
+      },
+      {
+        "id": 14,
+        "pergunta":"Qual é a montanha mais alta do mundo?",
+        "alternativas":["K2", "Mont Blanc", "Monte Everest", "Kilimanjaro"],
+        "resposta": "Monte Everest"
+      },
+      {
+        "id": 15,
+        "pergunta":"Quem foi o primeiro presidente do Brasil?",
+        "alternativas":["Getúlio Vargas", "Juscelino Kubitschek", "Deodoro da Fonseca", "Floriano Peixoto"],
+        "resposta": "Deodoro da Fonseca"
+      },
+      {
+        "id": 16,
+        "pergunta":"Qual é o maior animal terrestre?",
+        "alternativas":["Elefante africano", "Girafa", "Rinoceronte", " Hipopótamo"],
+        "resposta": "Elefante africano"
+      },
+      {
+        "id": 17,
+        "pergunta":"Quem é o autor de 1984?",
+        "alternativas":["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
+        "resposta": "George Orwell"
+      },
+      {
+        "id": 18,
+        "pergunta":"Quem pintou A Noite Estrelada ?",
+        "alternativas":["Claude Monet", "Vincent van Gogh", "Edvard Munch", "Salvador Dalí"],
+        "resposta": "Vincent van Gogh"
+      },
+      {
+        "id": 19,
+        "pergunta":"Qual é o elemento mais abundante na crosta terrestre?",
+        "alternativas":["Ferro", "Oxigênio", "Silício", "Alumínio"],
+        "resposta": "Oxigênio"
+      }
+    ]
+  }
+  
