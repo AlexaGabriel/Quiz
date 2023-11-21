@@ -1,13 +1,12 @@
-import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
-  // eslint-disable-next-line no-unused-vars
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      
+      <h1>Quizmania</h1>
+      <button><Link to="/Game">Jogar</Link></button>
     </>
   )
 }
