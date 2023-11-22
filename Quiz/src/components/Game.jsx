@@ -1,12 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import "./Game.css"
+import { Link } from 'react-router-dom';
 
 function Game() {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState(null);
   const [points, setPoints] = useState(0);
+  const [redirect, setRedirect] = useState(false);
 
   useEffect(() => {
     fetch('../Questions.json')
@@ -40,15 +42,24 @@ function Game() {
 
     if (currentAnswer === userAnswer) {
       setPoints((prevPoints) => prevPoints + 1);
+    } else {
+      setRedirect(true); // Se a resposta estiver errada, ativa o redirecionamento
+      return;
     }
 
     setUserAnswer(null);
     if (currentQuestionIndex + 1 < questions.length) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      setCurrentQuestionIndex(0); // Reinicia o jogo quando todas as perguntas forem respondidas
+      setRedirect(true); // Redireciona para o fim do jogo quando todas as perguntas forem respondidas
+      return;
     }
   };
+
+  if (redirect) {
+    <p style="color = red;">você perdeu</p>
+    return <Link to="/">Voltar ao inicio</Link>;
+  }
 
   if (questions.length === 0 || currentQuestionIndex >= questions.length) {
     return <p>Fim de jogo</p>;
@@ -68,17 +79,20 @@ function Game() {
               </li>
             ))}
           </ul>
-          {userAnswer !== null && (
-            <p>Resposta correta: {currentQuestion.resposta}</p>
-          )}
+          <div className='ocult'>
+            {userAnswer !== null && (
+              <p>Resposta correta: {currentQuestion.resposta}</p>
+            )}
+                    {userAnswer !== null && (
+            <button onClick={handleNextQuestion}>
+              Próxima Questão
+            </button>
+            )}
         </div>
-        {userAnswer !== null && (
-          <button onClick={handleNextQuestion}>
-            Próxima Questão
-          </button>
-        )}
+        <p>Pontuação: {points}</p>
+        </div>
       </form>
-      <p>Pontuação: {points}</p>
+      
     </>
   );
 }

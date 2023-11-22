@@ -7,6 +7,7 @@ function App() {
     <>
       <h1>Quizmania</h1>
       <button><Link to="/Game">Jogar</Link></button>
+      <p>Feito por Alexandre</p>
     </>
   )
 }

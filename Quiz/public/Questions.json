@@ -1,119 +1,884 @@
 {
-    "perguntas": [
-      {
-        "id": 1,
-        "pergunta": "Qual é a capital do Brasil?",
-        "alternativas": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
-        "resposta": "Brasília"
-      },
-      {
-        "id": 2,
-        "pergunta": "Qual é o maior planeta do sistema solar?",
-        "alternativas": ["Terra", "Júpiter", "Saturno", "Marte"],
-        "resposta": "Júpiter"
-      },
-      {
-        "id": 3,
-        "pergunta": "Qual é o período de translação da Terra ao redor do Sol?",
-        "alternativas": ["365 dias", "24 horas", "30 dias", "1 mês lunar"],
-        "resposta": "365 dias"
-      },
-      {
-        "id": 4,
-        "pergunta": "Quem pintou a Mona Lisa?",
-        "alternativas": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
-        "resposta": "Leonardo da Vinci"
-      },
-      {
-        "id": 5,
-        "pergunta":"Qual é a capital da França?",
-        "alternativas":["Berlim", "Paris", "Londres", "Roma"],
-        "resposta": "Paris"
-      },
-      {
-        "id": 6,
-        "pergunta":"Quem escreveu Dom Quixote ?",
-        "alternativas":["Miguel de Cervantes", "William Shakespeare", "Dante Alighieri", "Geoffrey Chaucer"],
-        "resposta": "Miguel de Cervantes"
-      },
-      {
-        "id": 7,
-        "pergunta":"Qual é o país mais populoso do mundo?",
-        "alternativas":["Rússia", "Índia", "China", "Estados Unidos"],
-        "resposta": "Índia"
-      },
-      {
-        "id": 8,
-        "pergunta":"Qual é o maior oceano do mundo?",
-        "alternativas":["Oceano Índico", "Oceano Pacífico", "Oceano Atlântico", "Oceano Ártico"],
-        "resposta": "Oceano Pacífico"
-      },
-      {
-        "id": 9,
-        "pergunta":"Quem foi o primeiro homem a pisar na lua?",
-        "alternativas":["Neil Armstrong", "Buzz Aldrin", "Alan Shepard", "John Glenn"],
-        "resposta": "Neil Armstrong"
-      },
-      {
-        "id": 10,
-        "pergunta":"Qual é a fórmula química da água?",
-        "alternativas":["CO2", "H2O", "NaCl", "H2SO4"],
-        "resposta": "H2O"
-      },
-      {
-        "id": 11,
-        "pergunta":"Qual é a capital da Itália?",
-        "alternativas":["Milão", "Florença", "Veneza", "Roma"],
-        "resposta": "Roma"
-      },
-      {
-        "id": 12,
-        "pergunta":"Quem escreveu A Odisséia ?",
-        "alternativas":["Homero", "Sófocles", "Platão", "Aristóteles"],
-        "resposta": "Homero"
-      },
-      {
-        "id": 13,
-        "pergunta":"Qual é o símbolo químico do ouro?",
-        "alternativas":["Au", "Ag", "Pt", "Fe"],
-        "resposta": "Au"
-      },
-      {
-        "id": 14,
-        "pergunta":"Qual é a montanha mais alta do mundo?",
-        "alternativas":["K2", "Mont Blanc", "Monte Everest", "Kilimanjaro"],
-        "resposta": "Monte Everest"
-      },
-      {
-        "id": 15,
-        "pergunta":"Quem foi o primeiro presidente do Brasil?",
-        "alternativas":["Getúlio Vargas", "Juscelino Kubitschek", "Deodoro da Fonseca", "Floriano Peixoto"],
-        "resposta": "Deodoro da Fonseca"
-      },
-      {
-        "id": 16,
-        "pergunta":"Qual é o maior animal terrestre?",
-        "alternativas":["Elefante africano", "Girafa", "Rinoceronte", " Hipopótamo"],
-        "resposta": "Elefante africano"
-      },
-      {
-        "id": 17,
-        "pergunta":"Quem é o autor de 1984?",
-        "alternativas":["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
-        "resposta": "George Orwell"
-      },
-      {
-        "id": 18,
-        "pergunta":"Quem pintou A Noite Estrelada ?",
-        "alternativas":["Claude Monet", "Vincent van Gogh", "Edvard Munch", "Salvador Dalí"],
-        "resposta": "Vincent van Gogh"
-      },
-      {
-        "id": 19,
-        "pergunta":"Qual é o elemento mais abundante na crosta terrestre?",
-        "alternativas":["Ferro", "Oxigênio", "Silício", "Alumínio"],
-        "resposta": "Oxigênio"
-      }
-    ]
-  }
-  
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Qual é a capital do Brasil?",
+      "alternativas": [
+        "São Paulo",
+        "Rio de Janeiro",
+        "Brasília",
+        "Salvador"
+      ],
+      "resposta": "Brasília"
+    },
+    {
+      "id": 2,
+      "pergunta": "Qual é o maior planeta do sistema solar?",
+      "alternativas": [
+        "Terra",
+        "Júpiter",
+        "Saturno",
+        "Marte"
+      ],
+      "resposta": "Júpiter"
+    },
+    {
+      "id": 3,
+      "pergunta": "Qual é o período de translação da Terra ao redor do Sol?",
+      "alternativas": [
+        "365 dias",
+        "24 horas",
+        "30 dias",
+        "1 mês lunar"
+      ],
+      "resposta": "365 dias"
+    },
+    {
+      "id": 4,
+      "pergunta": "Quem pintou a Mona Lisa?",
+      "alternativas": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "resposta": "Leonardo da Vinci"
+    },
+    {
+      "id": 5,
+      "pergunta": "Qual é a capital da França?",
+      "alternativas": [
+        "Berlim",
+        "Paris",
+        "Londres",
+        "Roma"
+      ],
+      "resposta": "Paris"
+    },
+    {
+      "id": 6,
+      "pergunta": "Quem escreveu Dom Quixote ?",
+      "alternativas": [
+        "Miguel de Cervantes",
+        "William Shakespeare",
+        "Dante Alighieri",
+        "Geoffrey Chaucer"
+      ],
+      "resposta": "Miguel de Cervantes"
+    },
+    {
+      "id": 7,
+      "pergunta": "Qual é o país mais populoso do mundo?",
+      "alternativas": [
+        "Rússia",
+        "Índia",
+        "China",
+        "Estados Unidos"
+      ],
+      "resposta": "Índia"
+    },
+    {
+      "id": 8,
+      "pergunta": "Qual é o maior oceano do mundo?",
+      "alternativas": [
+        "Oceano Índico",
+        "Oceano Pacífico",
+        "Oceano Atlântico",
+        "Oceano Ártico"
+      ],
+      "resposta": "Oceano Pacífico"
+    },
+    {
+      "id": 9,
+      "pergunta": "Quem foi o primeiro homem a pisar na lua?",
+      "alternativas": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Alan Shepard",
+        "John Glenn"
+      ],
+      "resposta": "Neil Armstrong"
+    },
+    {
+      "id": 10,
+      "pergunta": "Qual é a fórmula química da água?",
+      "alternativas": [
+        "CO2",
+        "H2O",
+        "NaCl",
+        "H2SO4"
+      ],
+      "resposta": "H2O"
+    },
+    {
+      "id": 11,
+      "pergunta": "Qual é a capital da Itália?",
+      "alternativas": [
+        "Milão",
+        "Florença",
+        "Veneza",
+        "Roma"
+      ],
+      "resposta": "Roma"
+    },
+    {
+      "id": 12,
+      "pergunta": "Quem escreveu A Odisséia ?",
+      "alternativas": [
+        "Homero",
+        "Sófocles",
+        "Platão",
+        "Aristóteles"
+      ],
+      "resposta": "Homero"
+    },
+    {
+      "id": 13,
+      "pergunta": "Qual é o símbolo químico do ouro?",
+      "alternativas": [
+        "Au",
+        "Ag",
+        "Pt",
+        "Fe"
+      ],
+      "resposta": "Au"
+    },
+    {
+      "id": 14,
+      "pergunta": "Qual é a montanha mais alta do mundo?",
+      "alternativas": [
+        "K2",
+        "Mont Blanc",
+        "Monte Everest",
+        "Kilimanjaro"
+      ],
+      "resposta": "Monte Everest"
+    },
+    {
+      "id": 15,
+      "pergunta": "Quem foi o primeiro presidente do Brasil?",
+      "alternativas": [
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Deodoro da Fonseca",
+        "Floriano Peixoto"
+      ],
+      "resposta": "Deodoro da Fonseca"
+    },
+    {
+      "id": 16,
+      "pergunta": "Qual é o maior animal terrestre?",
+      "alternativas": [
+        "Elefante africano",
+        "Girafa",
+        "Rinoceronte",
+        " Hipopótamo"
+      ],
+      "resposta": "Elefante africano"
+    },
+    {
+      "id": 17,
+      "pergunta": "Quem é o autor de 1984?",
+      "alternativas": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "H.G. Wells"
+      ],
+      "resposta": "George Orwell"
+    },
+    {
+      "id": 18,
+      "pergunta": "Quem pintou A Noite Estrelada ?",
+      "alternativas": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Edvard Munch",
+        "Salvador Dalí"
+      ],
+      "resposta": "Vincent van Gogh"
+    },
+    {
+      "id": 19,
+      "pergunta": "Qual é o elemento mais abundante na crosta terrestre?",
+      "alternativas": [
+        "Ferro",
+        "Oxigênio",
+        "Silício",
+        "Alumínio"
+      ],
+      "resposta": "Oxigênio"
+    },
+    {
+      "id": 20,
+      "pergunta": "Qual é o compositor de 'As Quatro Estações'?",
+      "alternativas": [
+        "Johann Sebastian Bach",
+        "Ludwig van Beethoven",
+        "Antonio Vivaldi",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "resposta": "Antonio Vivaldi"
+    },
+    {
+      "id": 21,
+      "pergunta": "Qual é o maior deserto do mundo?",
+      "alternativas": [
+        "Deserto do Saara",
+        "Deserto de Atacama",
+        "Deserto da Arábia",
+        "Deserto da Antártida"
+      ],
+      "resposta": "Deserto do Saara"
+    },
+    {
+      "id": 22,
+      "pergunta": "Quem escreveu 'Romeu e Julieta'?",
+      "alternativas": [
+        "Charles Dickens",
+        "Jane Austen",
+        "William Shakespeare",
+        "Emily Brontë"
+      ],
+      "resposta": "William Shakespeare"
+    },
+    {
+      "id": 23,
+      "pergunta": "Qual é o segundo maior país do mundo em área territorial?",
+      "alternativas": [
+        "Estados Unidos",
+        "Rússia",
+        "China",
+        "Canadá"
+      ],
+      "resposta": "Canadá"
+    },
+    {
+      "id": 24,
+      "pergunta": "Qual é o principal hormônio masculino?",
+      "alternativas": [
+        "Insulina",
+        "Testosterona",
+        "Estrógeno",
+        "Progesterona"
+      ],
+      "resposta": "Testosterona"
+    },
+    {
+      "id": 25,
+      "pergunta": "Quem pintou 'O Grito'?",
+      "alternativas": [
+        "Pablo Picasso",
+        "Claude Monet",
+        "Edvard Munch",
+        "Salvador Dalí"
+      ],
+      "resposta": "Edvard Munch"
+    },
+    {
+      "id": 26,
+      "pergunta": "Qual é o rio mais extenso do mundo?",
+      "alternativas": [
+        "Rio Nilo",
+        "Rio Amazonas",
+        "Rio Yangtzé",
+        "Rio Mississipi"
+      ],
+      "resposta": "Rio Amazonas"
+    },
+    {
+      "id": 27,
+      "pergunta": "Quem foi o fundador da Microsoft?",
+      "alternativas": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Mark Zuckerberg",
+        "Larry Page"
+      ],
+      "resposta": "Bill Gates"
+    },
+    {
+      "id": 28,
+      "pergunta": "Qual é a capital do Japão?",
+      "alternativas": [
+        "Osaka",
+        "Hiroshima",
+        "Kyoto",
+        "Tóquio"
+      ],
+      "resposta": "Tóquio"
+    },
+    {
+      "id": 29,
+      "pergunta": "Quem escreveu 'O Pequeno Príncipe'?",
+      "alternativas": [
+        "Antoine de Saint-Exupéry",
+        "Jules Verne",
+        "F. Scott Fitzgerald",
+        "Leo Tolstoy"
+      ],
+      "resposta": "Antoine de Saint-Exupéry"
+    },
+    {
+      "id": 30,
+      "pergunta": "Qual é o instrumento musical de Johann Sebastian Bach?",
+      "alternativas": [
+        "Piano",
+        "Violino",
+        "Órgão",
+        "Flauta"
+      ],
+      "resposta": "Órgão"
+    },
+    {
+      "id": 31,
+      "pergunta": "Quem foi o primeiro presidente dos Estados Unidos?",
+      "alternativas": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Abraham Lincoln",
+        "John Adams"
+      ],
+      "resposta": "George Washington"
+    },
+    {
+      "id": 32,
+      "pergunta": "Qual é a maior cordilheira do mundo?",
+      "alternativas": [
+        "Cordilheira dos Andes",
+        "Cordilheira do Himalaia",
+        "Cordilheira dos Alpes",
+        "Cordilheira do Atlas"
+      ],
+      "resposta": "Cordilheira dos Andes"
+    },
+    {
+      "id": 33,
+      "pergunta": "Quem foi o criador do Facebook?",
+      "alternativas": [
+        "Jeff Bezos",
+        "Elon Musk",
+        "Mark Zuckerberg",
+        "Tim Cook"
+      ],
+      "resposta": "Mark Zuckerberg"
+    },
+    {
+      "id": 34,
+      "pergunta": "Qual é a cidade conhecida como 'cidade maravilhosa'?",
+      "alternativas": [
+        "Sydney",
+        "Rio de Janeiro",
+        "Cape Town",
+        "Barcelona"
+      ],
+      "resposta": "Rio de Janeiro"
+    },
+    {
+      "id": 35,
+      "pergunta": "Quem foi o autor de 'O Senhor dos Anéis'?",
+      "alternativas": [
+        "J.R.R. Tolkien",
+        "C.S. Lewis",
+        "J.K. Rowling",
+        "George R.R. Martin"
+      ],
+      "resposta": "J.R.R. Tolkien"
+    },
+    {
+      "id": 36,
+      "pergunta": "Qual é o metal mais abundante na crosta terrestre?",
+      "alternativas": [
+        "Cobre",
+        "Alumínio",
+        "Ferro",
+        "Zinco"
+      ],
+      "resposta": "Alumínio"
+    },
+    {
+      "id": 37,
+      "pergunta": "Quem pintou 'A Última Ceia'?",
+      "alternativas": [
+        "Rafael",
+        "Sandro Botticelli",
+        "Michelangelo",
+        "Leonardo da Vinci"
+      ],
+      "resposta": "Leonardo da Vinci"
+    },
+    {
+      "id": 38,
+      "pergunta": "Qual é o menor planeta do sistema solar?",
+      "alternativas": [
+        "Vênus",
+        "Marte",
+        "Mercúrio",
+        "Plutão"
+      ],
+      "resposta": "Mercúrio"
+    },
+    {
+      "id": 39,
+      "pergunta": "Quem foi o primeiro ser humano a viajar para o espaço?",
+      "alternativas": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Alan Shepard"
+      ],
+      "resposta": "Yuri Gagarin"
+    },
+    {
+      "id": 40,
+      "pergunta": "Qual é o nome do processo de conversão de água líquida em vapor?",
+      "alternativas": [
+        "Ebulição",
+        "Fusão",
+        "Evaporação",
+        "Solidificação"
+      ],
+      "resposta": "Evaporação"
+    },
+        {
+          "id": 41,
+          "pergunta": "Quem foi o inventor da lâmpada elétrica?",
+          "alternativas": [
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "Thomas Edison",
+            "James Watt"
+          ],
+          "resposta": "Thomas Edison"
+        },
+        {
+          "id": 42,
+          "pergunta": "Qual é o segundo elemento mais abundante no corpo humano?",
+          "alternativas": [
+            "Ferro",
+            "Cálcio",
+            "Carbono",
+            "Potássio"
+          ],
+          "resposta": "Carbono"
+        },
+        {
+          "id": 43,
+          "pergunta": "Quem escreveu 'Orgulho e Preconceito'?",
+          "alternativas": [
+            "Jane Austen",
+            "Charlotte Brontë",
+            "Emily Dickinson",
+            "Charles Dickens"
+          ],
+          "resposta": "Jane Austen"
+        },
+        {
+          "id": 44,
+          "pergunta": "Qual é o segundo planeta do sistema solar a partir do Sol?",
+          "alternativas": [
+            "Terra",
+            "Marte",
+            "Vênus",
+            "Júpiter"
+          ],
+          "resposta": "Vênus"
+        },
+        {
+          "id": 45,
+          "pergunta": "Qual é o período de rotação da Terra?",
+          "alternativas": [
+            "24 horas",
+            "30 dias",
+            "365 dias",
+            "1 ano lunar"
+          ],
+          "resposta": "24 horas"
+        },
+        {
+          "id": 46,
+          "pergunta": "Quem pintou 'A Persistência da Memória'?",
+          "alternativas": [
+            "Pablo Picasso",
+            "Claude Monet",
+            "Salvador Dalí",
+            "Vincent van Gogh"
+          ],
+          "resposta": "Salvador Dalí"
+        },
+        {
+          "id": 47,
+          "pergunta": "Qual é o metal mais caro do mundo?",
+          "alternativas": [
+            "Ouro",
+            "Platina",
+            "Ródio",
+            "Irídio"
+          ],
+          "resposta": "Ródio"
+        },
+        {
+          "id": 48,
+          "pergunta": "Quem escreveu 'Crime e Castigo'?",
+          "alternativas": [
+            "Lev Tolstói",
+            "Fiódor Dostoiévski",
+            "Machado de Assis",
+            "Virginia Woolf"
+          ],
+          "resposta": "Fiódor Dostoiévski"
+        },
+        {
+          "id": 49,
+          "pergunta": "Qual é o número atômico do carbono?",
+          "alternativas": [
+            "5",
+            "12",
+            "6",
+            "14"
+          ],
+          "resposta": "6"
+        },
+        {
+          "id": 50,
+          "pergunta": "Quem foi o primeiro homem a escalar o Monte Everest?",
+          "alternativas": [
+            "Tenzing Norgay",
+            "Edmund Hillary",
+            "Reinhold Messner",
+            "Maurice Herzog"
+          ],
+          "resposta": "Edmund Hillary"
+        },
+        {
+          "id": 51,
+          "pergunta": "Qual é o primeiro livro da Bíblia?",
+          "alternativas": [
+            "Gênesis",
+            "Êxodo",
+            "Apocalipse",
+            "Salmos"
+          ],
+          "resposta": "Gênesis"
+        },
+        {
+          "id": 52,
+          "pergunta": "Quem foi o primeiro cientista a formular a teoria da relatividade?",
+          "alternativas": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileu Galilei",
+            "Stephen Hawking"
+          ],
+          "resposta": "Albert Einstein"
+        },
+        {
+          "id": 53,
+          "pergunta": "Qual é a segunda língua mais falada no mundo?",
+          "alternativas": [
+            "Espanhol",
+            "Hindi",
+            "Inglês",
+            "Árabe"
+          ],
+          "resposta": "Espanhol"
+        },
+        {
+          "id": 54,
+          "pergunta": "Quem pintou 'Guernica'?",
+          "alternativas": [
+            "Salvador Dalí",
+            "Pablo Picasso",
+            "Claude Monet",
+            "Vincent van Gogh"
+          ],
+          "resposta": "Pablo Picasso"
+        },
+        {
+          "id": 55,
+          "pergunta": "Qual é o país com a maior área territorial do mundo?",
+          "alternativas": [
+            "Canadá",
+            "Rússia",
+            "China",
+            "Estados Unidos"
+          ],
+          "resposta": "Rússia"
+        },
+        {
+          "id": 56,
+          "pergunta": "Quem escreveu 'Odisseia'?",
+          "alternativas": [
+            "Sófocles",
+            "Homero",
+            "Platão",
+            "Aristóteles"
+          ],
+          "resposta": "Homero"
+        },
+        {
+          "id": 57,
+          "pergunta": "Qual é o elemento químico usado para fazer diamantes?",
+          "alternativas": [
+            "Carbono",
+            "Ouro",
+            "Ferro",
+            "Cobre"
+          ],
+          "resposta": "Carbono"
+        },
+        {
+          "id": 58,
+          "pergunta": "Quem foi o primeiro imperador romano?",
+          "alternativas": [
+            "Calígula",
+            "Nero",
+            "Júlio César",
+            "Augusto"
+          ],
+          "resposta": "Augusto"
+        },
+        {
+          "id": 59,
+          "pergunta": "Qual é a constelação que contém a estrela Polaris?",
+          "alternativas": [
+            "Ursa Maior",
+            "Escorpião",
+            "Centauro",
+            "Ursa Menor"
+          ],
+          "resposta": "Ursa Menor"
+        },
+        {
+          "id": 60,
+          "pergunta": "Quem foi o primeiro presidente negro da África do Sul?",
+          "alternativas": [
+            "Nelson Mandela",
+            "Thabo Mbeki",
+            "Jacob Zuma",
+            "Cyril Ramaphosa"
+          ],
+          "resposta": "Nelson Mandela"
+        },
+        {
+          "id": 61,
+          "pergunta": "Qual é o maior lago de água doce do mundo em volume?",
+          "alternativas": [
+            "Lago Vitória",
+            "Lago Baikal",
+            "Lago Titicaca",
+            "Lago Superior"
+          ],
+          "resposta": "Lago Baikal"
+        },
+        {
+          "id": 62,
+          "pergunta": "Quem foi o autor de 'A Revolução dos Bichos'?",
+          "alternativas": [
+            "Aldous Huxley",
+            "George Orwell",
+            "Ray Bradbury",
+            "H.G. Wells"
+          ],
+          "resposta": "George Orwell"
+        },
+        {
+          "id": 63,
+          "pergunta": "Qual é o nome do processo de transformação do gás em líquido?",
+          "alternativas": [
+            "Ebulição",
+            "Condensação",
+            "Sublimação",
+            "Evaporação"
+          ],
+          "resposta": "Condensação"
+        },
+        {
+          "id": 64,
+          "pergunta": "Quem inventou o telefone?",
+          "alternativas": [
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "Albert Einstein"
+          ],
+          "resposta": "Alexander Graham Bell"
+        },
+        {
+          "id": 65,
+          "pergunta": "Qual é o maior órgão do corpo humano?",
+          "alternativas": [
+            "Fígado",
+            "Coração",
+            "Pele",
+            "Cérebro"
+          ],
+          "resposta": "Pele"
+        },
+        {
+          "id": 66,
+          "pergunta": "Quem foi o fundador da Apple?",
+          "alternativas": [
+            "Steve Jobs",
+            "Bill Gates",
+            "Mark Zuckerberg",
+            "Larry Page"
+          ],
+          "resposta": "Steve Jobs"
+        },
+        {
+          "id": 67,
+          "pergunta": "Qual é a capital da Austrália?",
+          "alternativas": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+          ],
+          "resposta": "Canberra"
+        },
+        {
+          "id": 68,
+          "pergunta": "Quem escreveu 'O Morro dos Ventos Uivantes'?",
+          "alternativas": [
+            "Jane Austen",
+            "Emily Brontë",
+            "Charlotte Brontë",
+            "Virginia Woolf"
+          ],
+          "resposta": "Emily Brontë"
+        },
+        {
+          "id": 69,
+          "pergunta": "Qual é o processo pelo qual as plantas produzem seu próprio alimento?",
+          "alternativas": [
+            "Respiração",
+            "Fotossíntese",
+            "Transpiração",
+            "Metabolismo"
+          ],
+          "resposta": "Fotossíntese"
+        },
+        {
+          "id": 70,
+          "pergunta": "Quem foi o criador da teoria da evolução?",
+          "alternativas": [
+            "Isaac Newton",
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Louis Pasteur"
+          ],
+          "resposta": "Charles Darwin"
+        },
+        {
+          "id": 71,
+          "pergunta": "Qual é o maior animal marinho?",
+          "alternativas": [
+            "Baleia azul",
+            "Tubarão branco",
+            "Orca",
+            "Cachalote"
+          ],
+          "resposta": "Baleia azul"
+        },
+        {
+          "id": 72,
+          "pergunta": "Quem foi o primeiro imperador do Brasil?",
+          "alternativas": [
+            "Dom Pedro II",
+            "Dom João VI",
+            "Dom Pedro I",
+            "Dom Manuel I"
+          ],
+          "resposta": "Dom Pedro I"
+        },
+        {
+          "id": 73,
+          "pergunta": "Qual é a unidade de medida de temperatura mais utilizada nos Estados Unidos?",
+          "alternativas": [
+            "Kelvin",
+            "Celsius",
+            "Fahrenheit",
+            "Rankine"
+          ],
+          "resposta": "Fahrenheit"
+        },
+        {
+          "id": 74,
+          "pergunta": "Quem escreveu 'O Processo'?",
+          "alternativas": [
+            "Franz Kafka",
+            "Albert Camus",
+            "Fyodor Dostoevsky",
+            "Virginia Woolf"
+          ],
+          "resposta": "Franz Kafka"
+        },
+        {
+          "id": 75,
+          "pergunta": "Qual é o único planeta do sistema solar que gira de leste a oeste?",
+          "alternativas": [
+            "Marte",
+            "Júpiter",
+            "Urano",
+            "Vênus"
+          ],
+          "resposta": "Vênus"
+        },
+        {
+          "id": 76,
+          "pergunta": "Quem é conhecido como o pai da filosofia ocidental?",
+          "alternativas": [
+            "Platão",
+            "Aristóteles",
+            "Sócrates",
+            "Heráclito"
+          ],
+          "resposta": "Sócrates"
+        },
+        {
+          "id": 77,
+          "pergunta": "Qual é o nome do maior músculo do corpo humano?",
+          "alternativas": [
+            "Bíceps",
+            "Quadríceps",
+            "Deltoides",
+            "Glúteo máximo"
+          ],
+          "resposta": "Glúteo máximo"
+        },
+        {
+          "id": 78,
+          "pergunta": "Quem é o autor da Mona Lisa?",
+          "alternativas": [
+            "Vincent van Gogh",
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Michelangelo"
+          ],
+          "resposta": "Leonardo da Vinci"
+        },
+        {
+          "id": 79,
+          "pergunta": "Qual é o elemento mais leve da tabela periódica?",
+          "alternativas": [
+            "Hidrogênio",
+            "Hélio",
+            "Lítio",
+            "Oxigênio"
+          ],
+          "resposta": "Hidrogênio"
+        },
+        {
+          "id": 80,
+          "pergunta": "Quem fundou a Amazon?",
+          "alternativas": [
+            "Jeff Bezos",
+            "Elon Musk",
+            "Mark Zuckerberg",
+            "Tim Cook"
+          ],
+          "resposta": "Jeff Bezos"
+        }
+  ]
+}
