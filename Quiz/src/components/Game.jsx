@@ -62,7 +62,7 @@ function Game() {
   }
 
   if (questions.length === 0 || currentQuestionIndex >= questions.length) {
-    return <p>Fim de jogo</p>;
+    return 
   }
 
   const currentQuestion = questions[currentQuestionIndex];
